@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
     res.end('You hit the /test route!');
   } else {
     res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.end('Hello from a raw Node.js server!');
+    res.end('loaderio-45f20bb88980b932fc608c1fe1133627');
   }
 });
 
